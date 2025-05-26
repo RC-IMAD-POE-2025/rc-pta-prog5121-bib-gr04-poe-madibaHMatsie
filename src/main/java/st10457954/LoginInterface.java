@@ -153,8 +153,9 @@ public class LoginInterface extends javax.swing.JFrame {
         if (accessGranted)
         {
             JOptionPane.showMessageDialog(this, loginErrorOrSuccessMessages, "You are logged in", JOptionPane.INFORMATION_MESSAGE);
-           JOptionPane.showMessageDialog(this, "Messaging is coming soon to MADIBA APP\nStay tuned!", "MADIBA APP", JOptionPane.INFORMATION_MESSAGE);
-            dispose();
+            MessageInterface messageInterface = new MessageInterface();
+            messageInterface.startMessagingInteraction();
+           
         }
         else
         {

@@ -1,7 +1,7 @@
 package st10457954;
 
-import st10457954.User;
 import st10457954.Authentication;
+import st10457954.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
