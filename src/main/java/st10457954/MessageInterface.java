@@ -2,11 +2,6 @@ package st10457954;
 
 import javax.swing.JOptionPane;
 
-/**
- * Handles the user interface for messaging features using JOptionPane dialogs.
- *
- * @author Angela
- */
 public class MessageInterface {
 
     /**
@@ -16,7 +11,7 @@ public class MessageInterface {
     public void startMessagingInteraction() {
         JOptionPane.showMessageDialog(null,
                 "Welcome to QuickChat v2",
-                "Angela Part 2", JOptionPane.INFORMATION_MESSAGE);
+                "Part 2", JOptionPane.INFORMATION_MESSAGE);
 
         boolean continueMessaging = true;
         while (continueMessaging) {
